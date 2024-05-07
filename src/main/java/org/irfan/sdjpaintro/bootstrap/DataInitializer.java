@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 @Component
 @Slf4j
-@Profile({"test","default"})
+@Profile({"local","default"})
 public class DataInitializer implements CommandLineRunner {
 
     private final BookRepository bookRepository;
