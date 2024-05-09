@@ -12,6 +12,5 @@ public interface BookDAO {
 
    Book updateBook(Book savedBook);
 
-
    void deleteBook(Long id);
 }

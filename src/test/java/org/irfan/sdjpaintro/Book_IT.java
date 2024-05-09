@@ -19,7 +19,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 @ComponentScan(basePackages = {"org.irfan.sdjpaintro.bootstrap", "org.irfan.sdjpaintro.dao"})
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @Slf4j
-public class MysqlIntegrationTest {
+public class Book_IT {
 
     @Autowired
     BookRepository bookRepository;
