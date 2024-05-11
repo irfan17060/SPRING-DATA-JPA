@@ -38,7 +38,7 @@ public class Author_IT {
 
     @Test
     void getAuthorNameTest() {
-        Author author = authorDao.findAuthorByName("Irfan", "khan");
+        Author author = authorDao.findAuthorByName("Robert", "Martin");
 
         assertThat(author).isNotNull();
     }
